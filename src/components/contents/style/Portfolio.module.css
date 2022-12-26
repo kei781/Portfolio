@@ -1,0 +1,74 @@
+.Title {
+  background-color: rgba(125, 125, 125, 0.125);
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(30px);
+  border-radius: 6px;
+  width: 25%;
+  min-width: 160px;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.2vw;
+  color: rgb(235, 235, 235);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+  font-family: "Poppins", sans-serif;
+}
+.Portfolio {
+  color: white;
+  margin: 1vh 0.5vw;
+  height: 55vh;
+  max-width: 96%;
+  width: 98%;
+  border: 2px solid white;
+  border-radius: 10px;
+  /* display: flex;
+  align-items: center; */
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 1%;
+}
+.ContentsWrap {
+  background-color: rgba(125, 125, 125, 0.125);
+  backdrop-filter: blur(30px);
+  border-radius: 6px;
+  width: 18.5vw;
+  min-width: 140px;
+  height: 50vh;
+  display: inline-block;
+}
+.ContentsWrap:last-child {
+  margin-right: 1vw;
+}
+.ContentsWrap > .ImgWrap {
+  width: 100%;
+  height: 84%;
+  margin: 1%;
+  margin-bottom: 0;
+}
+.ContentsWrap > .ImgWrap > a > img {
+  width: 100%;
+  height: 50%;
+}
+.ContentsWrap > .Category {
+  background-color: rgba(125, 125, 125, 0.125);
+  backdrop-filter: blur(30px);
+  border-radius: 6px 6px 0 0;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.ContentsWrap > .Subject {
+  background-color: rgba(125, 125, 125, 0.25);
+  backdrop-filter: blur(30px);
+  border-radius: 0 0 6px 6px;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

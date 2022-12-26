@@ -1,0 +1,93 @@
+.Title {
+  background-color: rgba(125, 125, 125, 0.125);
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(30px);
+  border-radius: 6px;
+  width: 25%;
+  min-width: 200px;
+  height: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.2vw;
+  color: rgb(235, 235, 235);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+  font-family: "Poppins", sans-serif;
+}
+.TechStack {
+  color: white;
+  margin: 1vh 0.5vw;
+  height: 55vh;
+  max-width: 96%;
+  width: 98%;
+  border: 2px solid white;
+  border-radius: 10px;
+  /* display: flex;
+  align-items: center; */
+  font-family: "Nanum Gothic", sans-serif;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 1%;
+}
+.Layout {
+  display: inline-block;
+  width: 100%;
+  height: 95%;
+}
+
+.Contents {
+  background-color: rgba(125, 125, 125, 0.125);
+  backdrop-filter: blur(30px);
+  border-radius: 6px;
+  width: 18.5vw;
+  min-width: 140px;
+  height: 50vh;
+  display: inline-block;
+}
+.Contents:last-child {
+  margin-right: 1vw;
+}
+.Subject {
+  background-color: rgba(125, 125, 125, 0.125);
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(30px);
+  border-radius: 6px 6px 0px 0px;
+  width: 100%;
+  height: 13%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+.ContentsInner {
+  width: 100%;
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Contents_Line {
+  margin: 3%;
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.img_longwidth {
+  width: 90%;
+  height: 90%;
+}
+.img_longheight {
+  height: 90%;
+}
+.img_box {
+  width: 45%;
+  height: 90%;
+}
+.img_GitHub {
+  width: 45%;
+  height: 90%;
+}

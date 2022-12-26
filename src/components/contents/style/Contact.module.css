@@ -1,0 +1,163 @@
+.Title {
+  background-color: rgba(125, 125, 125, 0.125);
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(30px);
+  border-radius: 6px;
+  width: 25%;
+  height: 8%;
+  min-width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1.2vw;
+  color: rgb(235, 235, 235);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.5);
+  font-family: "Poppins", sans-serif;
+}
+.Contact {
+  color: white;
+  margin: 1vh 0.5vw;
+  height: 58.5vh;
+  border: 2px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ContentsWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 65%;
+}
+/* 좌측메뉴 시작 */
+.MyContentsWrap {
+  width: 42%;
+  height: 100%;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.MyContentsWrap > li {
+  background-color: rgba(125, 125, 125, 0.125);
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(30px);
+  border-radius: 6px;
+  margin: 0 2% 2% 2%;
+  height: 19%;
+  display: flex;
+  align-items: center;
+  padding-left: 3%;
+  word-break: keep-all;
+}
+.MyContentsWrap > li:nth-child(3),
+li:nth-child(4) {
+  word-break: break-all;
+}
+.Icons {
+  width: 10%;
+}
+/* 좌측메뉴 끝 */
+/* 우측메뉴 시작 */
+.UrContentsWrap {
+  width: 58%;
+  height: 100%;
+}
+.UrContentsWrap > form {
+  width: 100%;
+  height: 100%;
+}
+.SingleBoxWrap {
+  background-color: rgba(125, 125, 125, 0.125);
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(30px);
+  border-radius: 6px;
+  margin: 0 1.5% 1.5% 0;
+  height: 19%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.SingleBoxWrap:nth-child(3) {
+  height: 60%;
+}
+.SingleBoxWrap > h4 {
+  background-color: rgba(125, 125, 125, 0.125);
+  backdrop-filter: blur(30px);
+  border-radius: 6px;
+  width: 100px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.SingleBoxWrap > input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  border: none;
+  color: aliceblue;
+  font-weight: bold;
+  height: 100%;
+  width: calc(100% - 100px);
+  margin-left: 3%;
+}
+.SingleBoxWrap > input * {
+  font-family: "Nanum Gothic", sans-serif;
+}
+.SingleBoxWrap > input:focus {
+  outline: none; /* 아웃라인 지우기 */
+  color: white;
+  font-family: "Nanum Gothic", sans-serif;
+}
+.SingleBoxWrap > input::placeholder {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 0.8rem;
+}
+.SingleBoxWrap > textarea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  border: none;
+  color: aliceblue;
+  font-weight: bold;
+  height: 95%;
+  width: calc(100% - 100px);
+  margin-left: 3%;
+  resize: none;
+}
+.SingleBoxWrap > textarea::-webkit-scrollbar {
+  display: none;
+}
+
+.SingleBoxWrap > textarea:focus {
+  outline: none; /* 아웃라인 지우기 */
+  color: white;
+}
+.SingleBoxWrap > textarea::placeholder {
+  font-family: "Nanum Gothic", sans-serif;
+  font-size: 0.8rem;
+  font-weight: none;
+  line-height: 1620%;
+}
+
+.ButtonWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16%;
+}
+.ButtonWrap > button {
+  border: 2px solid white;
+  background-color: rgba(125, 125, 125, 0.125);
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(30px);
+  border-radius: 6px;
+  width: 25%;
+  height: 80%;
+}
+/* 우측메뉴 끝 */

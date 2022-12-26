@@ -1,0 +1,40 @@
+.InnerHeader {
+  width: 50vw;
+  height: 10vh;
+  min-width: 280px;
+  margin: 3vh 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(128, 128, 128, 0.125);
+  border-radius: 10px;
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+}
+
+.Logo {
+  min-width: 40px;
+  padding: 4vh 4vw;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  color: white;
+  text-align: center;
+}
+.Menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-right: 0.5vw;
+}
+.Menu > button {
+  background-color: rgba(125, 125, 125, 0.125);
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(30px);
+  border-radius: 6px;
+  padding: 1vh 1.7vw;
+  margin: 0.2vh 0.2vw;
+  font-size: min(1.2rem, 1vw);
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: white;
+}

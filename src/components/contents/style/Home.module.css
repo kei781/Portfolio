@@ -1,0 +1,19 @@
+.Home {
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+.Home > button {
+  background-color: rgba(125, 125, 125, 0.125);
+  box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(30px);
+  border-radius: 6px;
+  width: 110px;
+  height: 50px;
+}
