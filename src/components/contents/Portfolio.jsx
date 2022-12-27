@@ -55,7 +55,7 @@ const Portfolio = () => {
                 <a href="/">
                   <img alt="홈페이지" src={PortfolioHome} />
                 </a>
-                <a href="">
+                <a href="https://github.com/kei781/Portfolio">
                   <img alt="코드사진(깃허브링크)" src={PortfolioCode} />
                 </a>
               </div>

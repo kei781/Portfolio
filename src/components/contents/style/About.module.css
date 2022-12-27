@@ -69,6 +69,10 @@
   margin-top: 2%;
   font-family: "Nanum Gothic", sans-serif;
 }
+.ContentsText > li {
+  margin-top: 3px;
+  font-weight: 600;
+}
 .ContentsText > li > span {
   color: white;
   font-weight: 600;

@@ -48,8 +48,12 @@
   margin: 1%;
   margin-bottom: 0;
 }
+.ContentsWrap > .ImgWrap > a {
+  margin: 0;
+  padding: 0;
+}
 .ContentsWrap > .ImgWrap > a > img {
-  width: 100%;
+  width: 98%;
   height: 50%;
 }
 .ContentsWrap > .Category {
