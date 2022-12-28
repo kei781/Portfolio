@@ -40,9 +40,11 @@ const Portfolio = () => {
               <div className={style.ImgWrap}>
                 <a href="http://www.noh.world:3000/">
                   <img alt="홈페이지" src={CommunityHome} />
+                  <div>배포된 홈페이지로 이동</div>
                 </a>
                 <a href="https://wiken.io/b/11146/11146">
                   <img alt="기술문서" src={CommunityDocs} />
+                  <div>기술문서로 이동</div>
                 </a>
               </div>
               <div className={style.Category}>Team-Project</div>
@@ -52,11 +54,13 @@ const Portfolio = () => {
           <div>
             <div className={style.ContentsWrap}>
               <div className={style.ImgWrap}>
-                <a href="/">
+                <a href="http://www.noh.world">
                   <img alt="홈페이지" src={PortfolioHome} />
+                  <div>배포된 홈페이지로 이동</div>
                 </a>
                 <a href="https://github.com/kei781/Portfolio">
                   <img alt="코드사진(깃허브링크)" src={PortfolioCode} />
+                  <div>깃허브로 이동</div>
                 </a>
               </div>
               <div className={style.Category}>Solo-Project</div>
@@ -68,9 +72,11 @@ const Portfolio = () => {
               <div className={style.ImgWrap}>
                 <a href="https://github.com/kei781/gongChaHeaderFotter">
                   <img alt="홈페이지" src={GongchaHome} />
+                  <div>깃허브로 이동</div>
                 </a>
                 <a href="https://wiken.io/ken/9957">
                   <img alt="코드사진" src={GongchaDocs} />
+                  <div>기술문서로 이동</div>
                 </a>
               </div>
               <div className={style.Category}>Team-Project</div>
